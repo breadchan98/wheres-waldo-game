@@ -33,6 +33,7 @@ public class Window extends JFrame
         this.setExtendedState(JFrame.MAXIMIZED_BOTH);
         
         //Canvas itself
+        //Precise Edit Not Really
         this.canvas = new GCanvas();
         this.add(this.canvas);
 
